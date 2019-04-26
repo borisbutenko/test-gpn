@@ -11,7 +11,7 @@ yarn install
 # serve with hot reload at localhost:8080
 yarn dev
 
-# node serve at localhost:8080
+# node serve at localhost:8000
 yarn start
 
 # build for production with minification
