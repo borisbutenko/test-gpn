@@ -44,7 +44,8 @@ module.exports = {
     'brace-style': ["error", "stroustrup"],
 
     // allow console.log during development only
-    'no-console': (IS_DEV) ? 'off' : 'error',
+    // --- coz use as serve log
+    // 'no-console': (IS_DEV) ? 'off' : 'error',
 
     // allow debugger during development only
     'no-debugger': (IS_DEV) ? 'off' : 'error'
