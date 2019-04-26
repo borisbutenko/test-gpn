@@ -2,20 +2,23 @@
 
 > The test task for GPN.
 
-## Build Setup
+## Setup
 
 ``` bash
 # install dependencies
-npm install
+yarn install
 
 # serve with hot reload at localhost:8080
-npm run dev
+yarn dev
+
+# node serve at localhost:8080
+yarn start
 
 # build for production with minification
-npm run build
+yarn build
 
-# build for production and view the bundle analyzer report
-npm run build --report
+# lint
+yarn lint
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Deployed at [heroku](https://test-gpn.herokuapp.com/).
