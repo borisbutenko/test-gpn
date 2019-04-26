@@ -1,0 +1,36 @@
+.modal-wrapper {
+  width: calc(100vmax - 20rem);
+  max-width: 100rem;
+}
+
+.modal-header {
+  padding: $space-base $space-base ($space-base / 4);
+}
+
+.modal-content {
+  padding: ($space-base / 4) $space-base;
+}
+
+.modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: ($space-base / 4) $space-base $space-base;
+}
+
+.modal-title {
+  margin: 0;
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.modal-content {
+  max-height: 70vmin;
+  overflow: auto;
+  font-size: 16px;
+
+  p {
+    line-height: 1.25;
+    letter-spacing: normal;
+  }
+}

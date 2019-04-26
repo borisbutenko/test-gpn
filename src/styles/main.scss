@@ -1,0 +1,11 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vmin;
+  margin: 0;
+  background-color: map-get($colors, white);
+  font-family: $ff-base;
+  font-size: $ff-size-base;
+}

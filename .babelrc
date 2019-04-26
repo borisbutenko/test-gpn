@@ -1,0 +1,30 @@
+{
+  "comments": false,
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false,
+        "loose": false,
+        "useBuiltIns": "usage"
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "@babel/plugin-transform-runtime",
+      {
+        "regenerator": false
+      }
+    ],
+    [
+      "@babel/plugin-transform-spread",
+      {
+        "loose": true
+      }
+    ],
+    [
+      "@babel/plugin-syntax-dynamic-import"
+    ]
+  ]
+}

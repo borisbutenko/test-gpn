@@ -1,0 +1,22 @@
+$ck-size: 1.5rem;
+
+.radio {
+  cursor: pointer;
+
+  &__input {
+    &:checked + .radio__checkmark {
+      background-color: map_get($colors, blue);
+      border: 1px solid map_get($colors, blue);
+    }
+  }
+
+  &__checkmark {
+    width: $ck-size;
+    height: $ck-size;
+    background-color: map_get($colors, white);
+    border: 1px solid map_get($colors, lightgray);
+    border-radius: 50%;
+    transition: border .1s linear,
+                background-color .1s linear;
+  }
+}
