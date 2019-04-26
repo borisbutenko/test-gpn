@@ -10,6 +10,7 @@
     "url": "https://github.com/borisbutenko/test-gpn.git"
   },
   "scripts": {
+    "start": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src"
